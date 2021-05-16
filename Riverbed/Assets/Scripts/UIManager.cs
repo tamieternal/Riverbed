@@ -47,6 +47,7 @@ public class UIManager : MonoBehaviour
 
     public void GoHome()
     {
+        playerMove.GoingHome = true;
         StartCoroutine(WaitFadeOutCo());
     }
 
