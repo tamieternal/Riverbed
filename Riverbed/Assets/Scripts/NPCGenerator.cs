@@ -26,7 +26,7 @@ public class NPCGenerator : MonoBehaviour
     void Start()
     {
         InactiveNPCs = new List<GameObject>(NPCPrefabs);
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 5; i++)
         {
             int index = Random.Range(0, InactiveNPCs.Count);
             ActiveNPCs.Add(InactiveNPCs[index]);

@@ -22,6 +22,7 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         goHomeArea = goHomeAreaGO.GetComponent<GoHomeArea>();
+        goHomeArea.isPrologue = true;
     }
 
     private void Update()

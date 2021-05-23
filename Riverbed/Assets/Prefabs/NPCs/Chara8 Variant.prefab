@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6000010065665739085
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7574110863941258272, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 780d14b95cbfa4840ad03455f2d6861a,
+        type: 2}
+    - target: {fileID: 7574110863941258273, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_Name
+      value: Chara8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.09198
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9670215
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258275, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1809877702228117076, guid: def9cc9a586c54f52b93ccf9e5da5f5c,
+        type: 3}
+    - target: {fileID: 7574110863941258279, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogue.name
+      value: "\u3061\u3088"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: "\u3042\u3089\u30FC\u5927\u304D\u304F\u306A\u3063\u305F\u308F\u306D\u3048"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06e1bda1209f64986a200fea9c75a083, type: 3}
