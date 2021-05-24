@@ -141,6 +141,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
         type: 3}
+      propertyPath: dialogues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[2].sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
       propertyPath: dialogue.name
       value: "\u304B\u305A\u3068"
       objectReference: {fileID: 0}
@@ -168,6 +188,51 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
       value: "\u304A\u308C\u306F\u3001\u307E\u3060\u3055\u304C\u3057\u3066\u308B"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: charaName
+      value: "\u305F\u304F\u3068"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
+      value: "\u3086\u3081\u306F\u3042\u308B\u304B\uFF1F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[1]
+      value: "\u307C\u304F\u306F\u307E\u3060\u3000\u3055\u304C\u3057\u3066\u308B"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[2].sentences.Array.data[0]
+      value: "\u3044\u307E\u3084\u3063\u3066\u3044\u308B\u3053\u3068\u306F\u3000\u306A\u306B\u3082\u3080\u3060\u306B\u306F\u306A\u3089\u306A\u3044\u3055"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[2].sentences.Array.data[1]
+      value: "\u3059\u3079\u3066\u3064\u306A\u304C\u3063\u3066\u3044\u308B\u304B\u3089"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[2].sentences.Array.data[2]
+      value: "\u3060\u304B\u3089\u307C\u304F\u306F\u3000\u3042\u308B\u304F\u3053\u3068\u3092\u3084\u3081\u306A\u3044"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.data[0]
+      value: "\u307F\u3061\u306A\u308A\u3000\u306B\u3059\u3059\u3080\u3060\u3051\u304C"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.data[1]
+      value: "\u3058\u3093\u305B\u3044\u3000\u3058\u3083\u306A\u3044\u3055"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[2]
+      value: "\u305D\u308C\u3067\u3044\u3044\u3093\u3060\u3068\u3000\u304A\u3082\u3046"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06e1bda1209f64986a200fea9c75a083, type: 3}

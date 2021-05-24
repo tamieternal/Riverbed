@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    public Dialogue dialogue;
+    public Dialogue[] dialogues;
     private DialogueManager dialogueManager;
     private PlayerMove playerMove;
 
     private bool isSpeakable = false;
 
+    private Dialogue dialogue;
+    public string charaName;
 
     public void Start()
     {
+
         playerMove = GameObject.FindWithTag("Player").GetComponent<PlayerMove>();
 
         dialogueManager = FindObjectOfType<DialogueManager>();
@@ -31,6 +34,7 @@ public class DialogueTrigger : MonoBehaviour
             }
             else
             {
+                SelectDialogue();
                 TriggerDialogue();
             }
         }
@@ -39,7 +43,7 @@ public class DialogueTrigger : MonoBehaviour
 
     public void TriggerDialogue()
     {
-        dialogueManager.StartDialogue(dialogue);
+        dialogueManager.StartDialogue(dialogue,charaName);
     }
     public void MoveDialogue()
     {
@@ -66,6 +70,14 @@ public class DialogueTrigger : MonoBehaviour
             dialogueManager.EndDialogue();
 
         }
+    }
+
+
+    private void SelectDialogue()
+    {
+        
+        int i = Random.Range(0, dialogues.Length);
+        dialogue = dialogues[i];
     }
 
 }

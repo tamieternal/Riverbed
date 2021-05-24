@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 7574110863941258273, guid: 06e1bda1209f64986a200fea9c75a083,
         type: 3}
       propertyPath: m_Name
-      value: Chara7
+      value: Chara7 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
         type: 3}
@@ -81,6 +81,16 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
         type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
       propertyPath: dialogue.name
       value: "\u307E\u306A"
       objectReference: {fileID: 0}
@@ -98,6 +108,26 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
       value: "\u307B\u3093\u3068\u3046\u3067\u3059\u3063\u3066\u3070"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
+      value: "\u305B\u3093\u305B\u3044\u306B\u3000\u304A\u3064\u304B\u3044\u3092\u305F\u306E\u307E\u308C\u3066\u3044\u308B\u3093\u3067\u3059"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[1]
+      value: "\u30FB\u30FB\u30FB\u307B\u3093\u3068\u3046\u3067\u3059\u3088"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[2]
+      value: "\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u307B\u3093\u3068\u3046\u3067\u3059\u3063\u3066\u3070\uFF01"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: charaName
+      value: "\u3086\u308A"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06e1bda1209f64986a200fea9c75a083, type: 3}

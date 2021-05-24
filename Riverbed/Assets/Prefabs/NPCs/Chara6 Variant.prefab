@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 7574110863941258273, guid: 06e1bda1209f64986a200fea9c75a083,
         type: 3}
       propertyPath: m_Name
-      value: Chara6
+      value: Chara6 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7574110863941258274, guid: 06e1bda1209f64986a200fea9c75a083,
         type: 3}
@@ -79,6 +79,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3884974466499212932, guid: 7d548b1c5dcf94a48a93e31bccc3cad8,
         type: 3}
+    - target: {fileID: 7574110863941258279, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: walkToRight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
         type: 3}
       propertyPath: dialogue.name
@@ -98,6 +118,41 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
       value: "\u307B\u3093\u3068\u3072\u307E\u3060\u306A\u301C"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: charaName
+      value: "\u305F\u304F\u3084"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[0]
+      value: "\u3072\u307E\u3060\u306A\u30FC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[1]
+      value: "\u30FB\u30FB\u30FB"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[0].sentences.Array.data[2]
+      value: "\u307B\u3093\u3068\u3072\u307E\u3060\u306A\u30FC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.data[0]
+      value: "\u30D0\u30A4\u30C8\u3084\u3059\u3082\u3063\u304B\u306A\u30FC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.data[1]
+      value: "\u30FB\u30FB\u30FB"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574110863941258281, guid: 06e1bda1209f64986a200fea9c75a083,
+        type: 3}
+      propertyPath: dialogues.Array.data[1].sentences.Array.data[2]
+      value: "\u3072\u307E\u3060\u3051\u3069"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06e1bda1209f64986a200fea9c75a083, type: 3}

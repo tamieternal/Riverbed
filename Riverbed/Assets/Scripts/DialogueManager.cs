@@ -19,11 +19,11 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
     }
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(Dialogue dialogue , string name)
     {
         seAudioSource.PlayOneShot(seAudioClip);
         animator.SetBool("isOpen", true);
-        nameText.text = dialogue.name;
+        nameText.text = name;
         sentences.Clear();
         foreach (string sentence in dialogue.sentences)
         {
